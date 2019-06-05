@@ -11539,12 +11539,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 body {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
   background: #343a40;
   max-width: 100%;
   overflow-x: hidden;
-  -webkit-transform: translate(0, 0, 0);
-      -ms-transform: translate(0, 0, 0);
-          transform: translate(0, 0, 0);
 }
 body button:focus {
   outline: 0;
