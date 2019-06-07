@@ -11539,8 +11539,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 body {
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
   background: #343a40;
   max-width: 100%;
   overflow-x: hidden;
@@ -11600,6 +11598,8 @@ body #home .nav-link {
 }
 body #home > div {
   margin-bottom: 100px;
+  position: relative;
+  z-index: 999;
 }
 body #systems {
   background: #1e1f21;
