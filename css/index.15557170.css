@@ -11680,16 +11680,19 @@ body #team .center {
       -ms-flex-pack: center;
           justify-content: center;
 }
-body #backgroud {
+body #background {
   background: #fff;
   color: #171717;
 }
-body #backgroud img {
+body #background img {
   max-height: 100px;
   max-width: 100px;
   height: auto;
   width: auto;
   margin-bottom: 30px;
+}
+body #contact > div {
+  color: #fff;
 }
 body footer {
   color: #fff;
