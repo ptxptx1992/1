@@ -11565,6 +11565,8 @@ body main > div h1 {
   line-height: 150px;
 }
 body #home {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
   position: relative;
   z-index: 2;
   color: #fff;
