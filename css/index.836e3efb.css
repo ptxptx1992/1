@@ -12025,6 +12025,7 @@ body [name=systems] .systems-container .systems-card article {
 body [name=technology] {
   position: relative;
   color: #171717;
+  padding-top: 60px;
 }
 body [name=technology] .technology-bottom-container {
   height: 60px;
@@ -12103,6 +12104,9 @@ body [name='contact'] .contact-contaner p {
   body [name="systems"] .systems-container .systems-card h3 {
     line-height: 40px;
   }
+  body [name="technology"] .technology-bottom-container {
+    display: none;
+  }
 }
 @media (min-width: 768px) {
   body [name="about"] .about-pc-content {
@@ -12132,6 +12136,9 @@ body [name='contact'] .contact-contaner p {
   }
   body [name="systems"] .systems-container .systems-card h3 {
     line-height: 80px;
+  }
+  body [name="technology"] .technology-bottom-container {
+    display: block;
   }
 }
 canvas {
